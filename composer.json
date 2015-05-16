@@ -1,8 +1,9 @@
 {
 	"name": "saigon/conpago-console-contract",
-	"description": "Conpago.Console.Contract",
+	"description": "Conpago console commandline framework abstraction layer.",
 	"version": "0.0.1-alpha",
 	"type": "library",
+	"license": "MIT",
 	"authors": [
 		{
 			"name": "Bartosz Gołek",
