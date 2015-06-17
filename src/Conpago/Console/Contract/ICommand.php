@@ -6,7 +6,7 @@
 	 * Time: 20:21
 	 */
 
-	namespace Saigon\Conpago\Console\Contract;
+	namespace Conpago\Console\Contract;
 
 	interface ICommand
 	{

@@ -1,5 +1,5 @@
 {
-	"name": "saigon/conpago-console-contract",
+	"name": "conpago/conpago-console-contract",
 	"description": "Conpago console commandline framework abstraction layer.",
 	"version": "0.0.1-alpha",
 	"type": "library",
@@ -22,7 +22,7 @@
 	},
 	"autoload": {
 		"psr-0": {
-			"Saigon\\Conpago\\Console\\Contract\\": "src/"
+			"Conpago\\Console\\Contract\\": "src/"
 		}
 	}
 }

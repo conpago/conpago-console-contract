@@ -6,7 +6,7 @@
 	 * Time: 23:38
 	 */
 
-	namespace Saigon\Conpago\Console\Contract\Presentation;
+	namespace Conpago\Console\Contract\Presentation;
 
 
 	interface IConsolePresenter {
