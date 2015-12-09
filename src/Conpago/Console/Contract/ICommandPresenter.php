@@ -1,14 +1,30 @@
 <?php
-	/**
-	 * Created by PhpStorm.
-	 * User: Bartosz Gołek
-	 * Date: 2014-06-15
-	 * Time: 11:53
-	 */
+/**
+ * Created by PhpStorm.
+ * User: Bartosz Gołek
+ * Date: 2014-06-15
+ * Time: 11:53
+ *
+ * @package    Conpago-Console-Contract
+ * @subpackage Base
+ * @author     Bartosz Gołek <bartosz.golek@gmail.com>
+ * @copyright  Copyright (c) 2015, Bartosz Gołek
+ */
 
-	namespace Conpago\Console\Contract;
+namespace Conpago\Console\Contract;
 
-	interface ICommandPresenter
-	{
-		public function run($string);
-	}
+/**
+ * Provides presentation layer for command.
+ */
+interface ICommandPresenter
+{
+
+    /**
+     * Presents message.
+     *
+     * @param string $message Message to show.
+     *
+     * @return void
+     */
+    public function show($message);
+}
