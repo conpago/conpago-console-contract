@@ -26,5 +26,5 @@ interface ICommandPresenter
      *
      * @return void
      */
-    public function show($message);
+    public function show(string $message): void;
 }

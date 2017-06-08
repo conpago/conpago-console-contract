@@ -27,5 +27,5 @@ interface IHelpCommandPresenter
      *
      * @return void
      */
-    public function printCommandInfo($command, $desc);
+    public function printCommandInfo(string $command, string $desc): void;
 }

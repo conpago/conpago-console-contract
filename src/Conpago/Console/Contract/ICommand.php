@@ -24,5 +24,5 @@ interface ICommand
      *
      * @return void
      */
-    public function execute();
+    public function execute(): void;
 }
